@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Manrope", sans-serif;
+	color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.darkYellow {
+	@apply bg-[#FDC300];
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.darkblue {
+	@apply bg-[#001F47];
+}
+
+.blue {
+	@apply bg-[#004F9F];
+}
+
+.timeBox {
+	@apply flex flex-col p-5 justify-center text-center border-r border-yellow border-solid;
+}
+
+.time {
+	@apply text-yellow align-middle content-center text-4xl md:text-5xl pb-2;
+}
+
+.timeBox.no-border {
+  border-style: none;
 }
