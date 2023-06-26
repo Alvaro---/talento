@@ -1,14 +1,14 @@
 
 const Description = () => {
     return (
-        <section className="flex flex-col justify-around blue w-screen h-screen md:p-40 p-10 md:text-2xl text-xl">
-            <h1 className="text-center p-10 mb-10">Prepárate para vivir experiencias, reflexiones y aprendizajes.</h1>
+        <section className="flex flex-col justify-around blue w-screen h-screen md:p-40 p-5 md:text-2xl text-xl">
+            <h1 className="text-center mb-10">Prepárate para vivir experiencias, reflexiones y aprendizajes.</h1>
             <h2 className="italic text-center mb-10">
-                "Inspirados en el momento actual,
+                &quot;Inspirados en el momento actual,
                 +Talento es una propuesta para vivir e intercambiar enfoques
                 y herramientas creativas y modernas que te permitirán potenciar
                 tus posibilidades de acompañar los procesos de desarrollo y crecimiento
-                organizacional."
+                organizacional.&quot;
             </h2>
             <div className="container mx-auto">
                 <h2 className="text-2xl font-bold mb-4">Días y Horarios</h2>

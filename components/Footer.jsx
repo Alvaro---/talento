@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import bannerImage from '../images/banner1.jpg'
 
 const Footer = () => {
@@ -5,7 +6,6 @@ const Footer = () => {
     <footer className="bg-gray-200 py-4 bg-yellow text-blue">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-          {/* Columna 1: Fechas de presentación del evento */}
           <div>
             <h3 className="text-lg font-bold mb-2 text-blue">Fechas de presentación</h3>
             <ul>
@@ -15,7 +15,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Columna 2: Números de teléfono de contacto */}
           <div>
             <h3 className="text-lg font-bold mb-2 text-blue">Teléfonos de contacto</h3>
             <ul>
@@ -24,9 +23,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Columna 3: Logotipo */}
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src={bannerImage}
               alt="Logotipo"
               className="h-16"
