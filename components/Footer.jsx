@@ -23,11 +23,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center m-0 p-0">
             <Image
               src={bannerImage}
               alt="Logotipo"
-              className="h-16"
+              className="h-full w-full m-0 p-0"
             />
           </div>
         </div>

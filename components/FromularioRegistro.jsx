@@ -1,28 +1,14 @@
 "use client"
 import React, { useState } from "react"
+import { useForm } from '@formspree/react';
 
 const FromularioRegistro = () => {
 
-    const [formulario, setFormulario] = useState({
-        nombre: '',
-        apellido: '',
-        correo: '',
-        phone: '',
-        mensaje: ''
-    });
+    const [state, handleSubmit] = useForm("xdornewp");
+    if (state.succeeded) {
+        return <p>Gracias por registrarte!</p>;
+    }
 
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setFormulario((prevState) => ({
-            ...prevState,
-            [name]: value
-        }));
-    };
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log(formulario);
-    };
     return (
         <>
             <h2 className="text-2xl font-bold mb-4">Formulario de Registro</h2>
@@ -36,8 +22,6 @@ const FromularioRegistro = () => {
                             type="text"
                             id="nombre"
                             name="nombre"
-                            value={formulario.nombre}
-                            onChange={handleChange}
                             className="w-full border-gray-300 rounded-md p-2 text-blue"
                         />
                     </div>
@@ -49,8 +33,6 @@ const FromularioRegistro = () => {
                             type="text"
                             id="apellido"
                             name="apellido"
-                            value={formulario.apellido}
-                            onChange={handleChange}
                             className="w-full border-gray-300 rounded-md p-2 text-blue"
                         />
                     </div>
@@ -63,8 +45,6 @@ const FromularioRegistro = () => {
                         type="email"
                         id="correo"
                         name="correo"
-                        value={formulario.correo}
-                        onChange={handleChange}
                         className="w-full border-gray-300 rounded-md p-2 text-blue"
                     />
                 </div>
@@ -76,8 +56,6 @@ const FromularioRegistro = () => {
                         type="tel"
                         id="phone"
                         name="phone"
-                        value={formulario.phone}
-                        onChange={handleChange}
                         className="w-full border-gray-300 rounded-md p-2 text-blue"
                     />
                 </div>
@@ -86,8 +64,6 @@ const FromularioRegistro = () => {
                         Mensaje:
                         <textarea
                             name="mensaje"
-                            value={formulario.mensaje}
-                            onChange={handleChange}
                             className="w-full border-gray-300 rounded-md p-2 text-blue"
                         ></textarea>
                     </label>
