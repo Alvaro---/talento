@@ -7,7 +7,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Manrope", sans-serif;
-	color: white;
 }
 
 .darkYellow {
@@ -32,4 +31,8 @@
 
 .timeBox.no-border {
   border-style: none;
+}
+
+.textBox {
+	@apply flex flex-col p-5
 }

@@ -7,7 +7,7 @@ const Counter = () => {
     const [timeRemaining] = useCountdown(targetDate);
 
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between text-white'>
             <div className="timeBox">
                 <p className="time">{timeRemaining.days}</p>
                 <p className="">Dias</p>
