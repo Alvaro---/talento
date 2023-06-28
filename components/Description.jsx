@@ -1,7 +1,7 @@
 
 const Description = () => {
     return (
-        <section className="flex flex-col justify-around blue w-screen h-screen md:p-40 p-5 md:text-2xl text-xl text-white">
+        <section className="flex flex-col justify-around blue w-screen min-h-full md:p-20 p-5 md:text-2xl text-xl text-white">
             <h1 className="text-center mb-10">Prepárate para vivir experiencias, reflexiones y aprendizajes.</h1>
             <h2 className="italic text-center mb-10">
                 &quot;Inspirados en el momento actual,

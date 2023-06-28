@@ -13,11 +13,6 @@ const Registro = () => {
                     teniendo como referencia la generación de una cultura organizacional,
                     orientada y fundamentada en las personas y el desarrollo de su talento.
                 </p>
-                <p className="p-10 text-center">
-                    Además, este año te ofrecemos una Certificación en
-                    HR Business Partner – Facilitador/a del Desarrollo y Aprendizaje Corporativo,
-                    con la presencia de Juan Carlos Cadavid.
-                </p>
             </div>
             <div className="container mx-auto p-4 md:w-full w-full min-h-full rounded-3xl flex flex-col items-center justify-center">
                 <FormularioRegistro />
