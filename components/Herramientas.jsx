@@ -1,5 +1,8 @@
 import ImageSlider from "./ImageSlider "
 import openCards from "@/data/openCards"
+import talentCards from "@/data/talentCards"
+import finx from "@/data/finx"
+import pointOfYou from "@/data/openCards"
 
 const Herramientas = () => {
     return (
@@ -16,7 +19,7 @@ const Herramientas = () => {
                 </div>
             </section>
 
-            <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
+            <section className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
                 <div className='textBox w-full md:w-1/2' id="talentCards">
                     <h3 className='text-blue mb-5'>Talent Cards®</h3>
                     <p>
@@ -32,7 +35,7 @@ const Herramientas = () => {
                         la integración y alineación de los procesos de gestión del talento con los objetivos de negocio o de una organización.</p>
                 </div>
                 <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[350px] h-[250px]">
-                    <ImageSlider images={openCards} className="md:h-[400px] h-[250px]" />
+                    <ImageSlider images={talentCards} className="md:h-[400px] h-[250px]" />
                 </div>
             </section>
 
@@ -45,7 +48,20 @@ const Herramientas = () => {
                     </p>
                 </div>
                 <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[350px] h-[250px]">
-                    <ImageSlider images={openCards} className="md:h-[400px] h-[250px]" />
+                    <ImageSlider images={finx} className="md:h-[400px] h-[250px]" />
+                </div>
+            </section>
+
+            <section className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
+                <div className='textBox w-full md:w-1/2' id="finxs">
+                    <h3 className='text-blue mb-5'>Points of You</h3>
+                    <p>
+                        Herramienta de evaluación que brinda información profunda sobre el comportamiento natural de las personas y permite maximizar el desempeño de las personas, los equipos y la organización.  Extended DISC®  brinda información práctica y  tiene una base sólida para desarrollar capacidades.
+                        Finxs es una plataforma versátil de administración de evaluaciones que apoyan la gestión del talento humano.
+                    </p>
+                </div>
+                <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[350px] h-[250px]">
+                    <ImageSlider images={finx} className="md:h-[400px] h-[250px]" />
                 </div>
             </section>
         </div>

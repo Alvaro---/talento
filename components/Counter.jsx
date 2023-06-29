@@ -3,7 +3,7 @@
 import useCountdown from "@/hooks/useCountdown";
 
 const Counter = () => {
-    const targetDate = new Date('2023-07-20T17:00:00');
+    const targetDate = new Date('2023-07-21T17:00:00');
     const [timeRemaining] = useCountdown(targetDate);
 
     return (
