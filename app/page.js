@@ -1,4 +1,4 @@
-import { Certificacion, Description, Footer, Hero, Participants, Registro } from "@/components";
+import { Certificacion, Certificacion2, Description, Footer, Hero, Herramientas, Participants, Registro } from "@/components";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
@@ -10,6 +10,8 @@ export default function Home() {
 			<Participants />
 			<Description />
 			<Certificacion />
+			<Certificacion2 />
+			<Herramientas />
 			<Registro />
 			<Footer />
 		</main>

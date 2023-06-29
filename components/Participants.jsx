@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import talentCardsLogo from '../images/participantsLogos/talent-cards.jpg'
+import talentCardsLogo from '../images/participantsLogos/talent-cards.png'
 import legoLogo from '../images/participantsLogos/lego+serious+play.jpg'
 import finxsLogo from '../images/participantsLogos/finxs.png'
 import pointsOfYou from '../images/participantsLogos/points-of-you-fondo-blanco.png'

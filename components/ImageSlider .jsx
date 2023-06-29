@@ -33,7 +33,7 @@ const ImageSlider = ({ images }) => {
     }, [currentIndex, images.length]);
 
     return (
-        <div>
+        <div className='h-full'>
             {images.map((image, index) => (
                 <animated.div
                     key={index}

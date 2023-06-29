@@ -10,21 +10,19 @@ const Footer = () => {
           <div>
             <h3 className="text-md font-bold mb-2 text-blue">La Paz</h3>
             <ul>
-              <li className="text-blue">20 y 21 de julio, 17:00 a 21:00 Hrs</li>
-              <li className="text-blue">22 de julio, 9:00 a 13:00 Hrs</li>
+              <li className="text-blue">21 y 22 de Julio Hrs 17:00 a 20:30</li>
             </ul>
             <h3 className="text-md font-bold mb-2 text-blue">Santa Cruz</h3>
             <ul>
-              <li className="text-blue">26 y 27 de julio, 17:00 a 21:00 Hrs</li>
-              <li className="text-blue">28 de julio, 9:00 a 13:00 Hrs</li>
+              <li className="text-blue">26 y 27 de Julio Hrs 17:00 a 20:30</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold mb-2 text-blue">Teléfonos de contacto</h3>
             <ul>
-              <li className="text-blue">123-456-7890</li>
-              <li className="text-blue">987-654-3210</li>
+              <li className="text-blue">Eliana Otondo – 78562700</li>
+              <li className="text-blue">Ana Zamorano - 69850858</li>
             </ul>
           </div>
 

@@ -6,11 +6,11 @@ import openCards from "../images/participantsLogos/openCards.png";
 import openMinds from "../images/participantsLogos/OpenMinds.png";
 
 const participants = [
-	{
-		id: 1,
-		image: legoLogo,
-		alt: "Lego Serious Play",
-	},
+	// {
+	// 	id: 1,
+	// 	image: legoLogo,
+	// 	alt: "Lego Serious Play",
+	// },
 	{
 		id: 2,
 		image: pointsOfYou,
@@ -31,11 +31,11 @@ const participants = [
 		image: openMinds,
 		alt: "Open Minds",
 	},
-	{
-		id: 5,
-		image: openCards,
-		alt: "Open Cards",
-	},
+	// {
+	// 	id: 5,
+	// 	image: openCards,
+	// 	alt: "Open Cards",
+	// },
 ];
 
 export default participants;

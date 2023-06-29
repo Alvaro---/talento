@@ -5,7 +5,7 @@ import openCards7 from "../images/OpenCards/Open Cards-07.png";
 import openCards8 from "../images/OpenCards/Open Cards-08.png";
 import openCards9 from "../images/OpenCards/Open Cards-09.png";
 
-const certificacion = [
+const openCards = [
 	{
 		id: 1,
 		image: openCards2,
@@ -38,4 +38,4 @@ const certificacion = [
 	},
 ];
 
-export default certificacion;
+export default openCards;

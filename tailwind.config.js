@@ -24,6 +24,7 @@ module.exports = {
 			yellow: "#FDC300",
 			blue: "#001F47",
 			ligthBlue: "#1D71B8",
+			blueMid: "#1550a0"
 		},
 		extend: {
 			backgroundImage: {
@@ -31,7 +32,9 @@ module.exports = {
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 				logo_background: "url('../images/background.png')",
-        logo_background_large: "url('../images/background_large.png')",
+				logo_background_large: "url('../images/background_large.png')",
+				background_yellow_large: "url('../images/background_yellow_large.png')",
+				background_yellow: "url('../images/background_yellow.png')",
 			},
 		},
 	},
