@@ -1,4 +1,5 @@
 import {
+	Author,
 	Certificacion,
 	Certificacion2,
 	Certificacion3,
@@ -19,12 +20,11 @@ export default function Home() {
 			<Hero />
 			<Participants />
 			<Description />
-			<div className=''>
-				<Certificacion />
-			</div>
-				<Certificacion2 />
-				<Certificacion3 />
-			<h2 className="text-blue text-center text-2xl mt-10">Conoce a nuestro equipos</h2>
+			<Certificacion />
+			<Author />
+			<Certificacion2 />
+			<Certificacion3 />
+			<h2 className='text-blue text-center text-2xl mt-10'>Conoce a nuestro equipos</h2>
 			<Herramientas />
 			<Registro />
 			<Footer />

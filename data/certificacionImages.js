@@ -17,11 +17,7 @@ const openCards = [
 		image: imagen17,
 		alt: "Open Cards",
 	},
-	{
-		id: 3,
-		image: imagen18,
-		alt: "Open Cards",
-	},
+
 	{
 		id: 4,
 		image: imagen23,

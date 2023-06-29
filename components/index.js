@@ -9,5 +9,6 @@ import Certificacion from "./Certificacion";
 import Herramientas from "./Herramientas";
 import Certificacion2 from "./Certificacion2";
 import Certificacion3 from "./Certificacion3";
+import Author from "./Author";
 
-export { Hero, Counter, Participants, Description, Registro, Footer, Certificacion, Herramientas, Certificacion2, Certificacion3 };
+export { Hero, Counter, Participants, Description, Registro, Footer, Certificacion, Herramientas, Certificacion2, Certificacion3, Author };
