@@ -8,5 +8,6 @@ import Participants from "./Participants2";
 import Certificacion from "./Certificacion";
 import Herramientas from "./Herramientas";
 import Certificacion2 from "./Certificacion2";
+import Certificacion3 from "./Certificacion3";
 
-export { Hero, Counter, Participants, Description, Registro, Footer, Certificacion, Herramientas, Certificacion2 };
+export { Hero, Counter, Participants, Description, Registro, Footer, Certificacion, Herramientas, Certificacion2, Certificacion3 };

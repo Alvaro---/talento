@@ -1,6 +1,7 @@
 import {
 	Certificacion,
 	Certificacion2,
+	Certificacion3,
 	Description,
 	Footer,
 	Hero,
@@ -18,10 +19,12 @@ export default function Home() {
 			<Hero />
 			<Participants />
 			<Description />
-			<div className='bg-cover bg-center bg-no-repeat bg-background_yellow'>
+			<div className=''>
 				<Certificacion />
-				<Certificacion2 />
 			</div>
+				<Certificacion2 />
+				<Certificacion3 />
+			<h2 className="text-blue text-center text-2xl mt-10">Conoce a nuestro equipos</h2>
 			<Herramientas />
 			<Registro />
 			<Footer />
