@@ -11,8 +11,8 @@ const Herramientas = () => {
                         Cuenta con Kits de trabajo y conversaciones, con más de 100 modelos de aplicación. Se basa en un modelo de conversaciones que te guiará para manejarlo en contextos diversos, en grupo, individualmente, facilitando espacios seguros y participativos.
                         La aplicabilidad de este modelo se adecúa a entornos diversos, creando un espacio de diálogo abierto, participativo y constructivo.</p>
                 </div>
-                <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full h-[400px]">
-                    <ImageSlider images={openCards} className="h-[400px]" />
+                <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[400px] h-[250px]">
+                    <ImageSlider images={openCards} className="md:h-[400px] h-[250px]" />
                 </div>
             </section>
 
@@ -31,8 +31,8 @@ const Herramientas = () => {
                         Las cartas cuentan con criterios coherentes y claros, que te permiten
                         la integración y alineación de los procesos de gestión del talento con los objetivos de negocio o de una organización.</p>
                 </div>
-                <div className="textBox w-full md:w-1/2 flex justify-center items-center h-[400px]">
-                    <ImageSlider images={openCards} className=" h-[400px]"/>
+                <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[400px] h-[250px]">
+                    <ImageSlider images={openCards} className="md:h-[400px] h-[250px]" />
                 </div>
             </section>
 
@@ -44,8 +44,8 @@ const Herramientas = () => {
                         Finxs es una plataforma versátil de administración de evaluaciones que apoyan la gestión del talento humano.
                     </p>
                 </div>
-                <div className="textBox w-full md:w-1/2 flex justify-center items-center h-[400px]">
-                    <ImageSlider images={openCards} />
+                <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[400px] h-[250px]">
+                    <ImageSlider images={openCards} className="md:h-[400px] h-[250px]" />
                 </div>
             </section>
         </div>

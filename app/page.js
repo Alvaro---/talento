@@ -1,7 +1,16 @@
-import { Certificacion, Certificacion2, Description, Footer, Hero, Herramientas, Participants, Registro } from "@/components";
-import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
-config.autoAddCss = false
+import {
+	Certificacion,
+	Certificacion2,
+	Description,
+	Footer,
+	Hero,
+	Herramientas,
+	Participants,
+	Registro,
+} from "@/components";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 export default function Home() {
 	return (
@@ -9,8 +18,10 @@ export default function Home() {
 			<Hero />
 			<Participants />
 			<Description />
-			<Certificacion />
-			<Certificacion2 />
+			<div className='bg-cover bg-center bg-no-repeat bg-background_yellow'>
+				<Certificacion />
+				<Certificacion2 />
+			</div>
 			<Herramientas />
 			<Registro />
 			<Footer />
