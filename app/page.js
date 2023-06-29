@@ -24,7 +24,7 @@ export default function Home() {
 			<Author />
 			<Certificacion2 />
 			<Certificacion3 />
-			<h2 className='text-blue text-center text-2xl mt-10'>Conoce a nuestro equipos</h2>
+			<h2 className='text-blue text-center text-2xl mt-10'>Conoce sobre nuestros expositores</h2>
 			<Herramientas />
 			<Registro />
 			<Footer />
