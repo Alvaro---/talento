@@ -16,6 +16,7 @@
     "@heroicons/react": "^1.0.6",
     "@react-spring/web": "^9.7.3",
     "autoprefixer": "10.4.14",
+    "embla-carousel": "^8.0.0-rc07",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "next": "13.4.7",

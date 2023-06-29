@@ -2,7 +2,7 @@ import ImageSlider from "./ImageSlider "
 import openCards from "@/data/openCards"
 import talentCards from "@/data/talentCards"
 import finx from "@/data/finx"
-import pointOfYou from "@/data/openCards"
+import pointOfYou from "@/data/poitOfYou"
 
 const Herramientas = () => {
     return (
@@ -56,12 +56,12 @@ const Herramientas = () => {
                 <div className='textBox w-full md:w-1/2' id="finxs">
                     <h3 className='text-blue mb-5'>Points of You</h3>
                     <p>
-                        Herramienta de evaluación que brinda información profunda sobre el comportamiento natural de las personas y permite maximizar el desempeño de las personas, los equipos y la organización.  Extended DISC®  brinda información práctica y  tiene una base sólida para desarrollar capacidades.
-                        Finxs es una plataforma versátil de administración de evaluaciones que apoyan la gestión del talento humano.
+                        Points of You® es la metodología que está revolucionando el mundo de la empresa, del coaching y del desarrollo personal y profesional, para potenciar la creatividad y la productividad tanto de personas como de equipos.
+                        Nuestras herramientas innovadoras y creativas utilizan el poderoso lenguaje de la fotografía para crear una comunicación significativa abriendo nuevas posibilidades para el cambio y el crecimiento.
                     </p>
                 </div>
                 <div className="textBox w-full md:w-1/2 flex justify-center items-center max-h-full md:h-[350px] h-[250px]">
-                    <ImageSlider images={finx} className="md:h-[400px] h-[250px]" />
+                    <ImageSlider images={pointOfYou} className="md:h-[400px] h-[250px]" />
                 </div>
             </section>
         </div>
