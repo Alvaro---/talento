@@ -15,21 +15,25 @@ const participants = [
 		id: 2,
 		image: pointsOfYou,
 		alt: "Points of you",
+		link: "#talentCards"
 	},
 	{
 		id: 3,
 		image: finxsLogo,
 		alt: "FINXS EXTENDED DISC MAPA DEL TALENTO ",
+		link: "#finxs"
 	},
 	{
 		id: 4,
 		image: talentCardsLogo,
 		alt: "TalentCards",
+		link: "#talentCards"
 	},
 	{
 		id: 5,
 		image: openMinds,
 		alt: "Open Minds",
+		link: "#openCards"
 	},
 	// {
 	// 	id: 5,

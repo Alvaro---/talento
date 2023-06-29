@@ -1,5 +1,6 @@
 import Image from "next/image";
 import participants from "@/data/participants"
+import Link from "next/link";
 
 const Participants = () => {
   return (
@@ -10,7 +11,9 @@ const Participants = () => {
           {
             participants.map(participant => (
               <div className='w-50 p-2 mb-5 md:w-72 m-6' key={participant.id}>
-                <Image src={participant.image} alt={participant.alt} />
+                <Link href={participant.link}>
+                  <Image src={participant.image} alt={participant.alt} />
+                </Link>
               </div>
             ))
           }

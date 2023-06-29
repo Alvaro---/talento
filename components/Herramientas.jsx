@@ -5,7 +5,7 @@ const Herramientas = () => {
     return (
         <div className="flex justify-center items-center flex-col">
             <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
-                <div className='textBox w-full md:w-1/2'>
+                <div className='textBox w-full md:w-1/2' id="openCards">
                     <h3 className='text-blue mb-5'>Open Cards</h3>
                     <p>La metodología Open Cards® es una plataforma que permite crear espacios participativos y responder asuntos clave de cualquier negocio, cliente o equipo.
                         Cuenta con Kits de trabajo y conversaciones, con más de 100 modelos de aplicación. Se basa en un modelo de conversaciones que te guiará para manejarlo en contextos diversos, en grupo, individualmente, facilitando espacios seguros y participativos.
@@ -17,7 +17,7 @@ const Herramientas = () => {
             </section>
 
             <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
-                <div className='textBox w-full md:w-1/2'>
+                <div className='textBox w-full md:w-1/2' id="talentCards">
                     <h3 className='text-blue mb-5'>Talent Cards®</h3>
                     <p>
                         Talent Cards® son un conjunto de
@@ -37,7 +37,7 @@ const Herramientas = () => {
             </section>
 
             <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
-                <div className='textBox w-full md:w-1/2'>
+                <div className='textBox w-full md:w-1/2' id="finxs">
                     <h3 className='text-blue mb-5'>Extended DISC® by Finxs</h3>
                     <p>
                         Herramienta de evaluación que brinda información profunda sobre el comportamiento natural de las personas y permite maximizar el desempeño de las personas, los equipos y la organización.  Extended DISC®  brinda información práctica y  tiene una base sólida para desarrollar capacidades.

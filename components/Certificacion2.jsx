@@ -2,7 +2,7 @@
 const Certificacion2 = () => {
     return (
         <div className="flex flex-col w-full md:w-5/6 mx-auto mb-20 mt-5 px-5 text-lg">
-            <h3 className="text-blue text-bold text-xl text-center">Eleva tu nivel de intervención y facilitación de procesos.</h3>
+            <h3 className="text-blue text-bold text-2xl text-center">Eleva tu nivel de intervención y facilitación de procesos.</h3>
             <h2 className="mb-5 text-center">¿Qué es un/a HR Business Partner (HR-BP)?</h2>
             <p className="mb-2">
                 El Rol de un/a Business Partner ha evolucionado con el tiempo, convirtiéndose en un
