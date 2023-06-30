@@ -31,9 +31,9 @@
 }
 
 .timeBox.no-border {
-  border-style: none;
+	border-style: none;
 }
 
 .textBox {
-	@apply flex flex-col p-5
+	@apply flex flex-col p-5;
 }

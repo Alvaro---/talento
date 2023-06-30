@@ -8,7 +8,7 @@ import Image from "next/image"
 
 const Herramientas = () => {
     return (
-        <div className="flex justify-center items-center flex-col  bg-cover 
+        <div className=" py-10 flex justify-center items-center flex-col  bg-cover 
         bg-center 
         bg-no-repeat
         bg-logo_background">
@@ -60,7 +60,7 @@ const Herramientas = () => {
                 </div>
             </section>
 
-            <section id="finxs" className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 md:border-[#CD1F26] w-full md:w-5/6 bg-white'>
+            <section id="finxs" className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 md:border-[#CD1F26] w-full md:w-5/6 bg-white'>
                 <div className='textBox w-full md:w-1/2 flex-col justify-center items-center'>
                     {/* <h3 className='text-blue mb-5'>Extended DISC® by Finxs</h3> */}
                     <Image src={participants[3].image} alt={participants[3].alt} className="w-7/12 mb-5" />

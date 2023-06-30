@@ -1,6 +1,5 @@
 import {
 	Author,
-	Certificacion,
 	Certificacion2,
 	Certificacion3,
 	Description,

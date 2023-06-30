@@ -1,16 +1,58 @@
+"use client"
 import certificacionImages from "@/data/certificacionImages"
 import Image from "next/image"
+import { useKeenSlider } from "keen-slider/react"
+import "keen-slider/keen-slider.min.css"
 
 const Certificacion3 = () => {
-    return (
-        <div className="w-screen m-auto flex flex-wrap">
-            <Image src={certificacionImages[2].image} className="md:w-full p-0" />
 
-            {/* {certificacionImages.map((image) => (
-                <Image src={image.image} key={image.id} className="md:w-full " />
-            ))} */}
-        </div>
+    const [sliderRef] = useKeenSlider({
+        loop: true,
+    },
+        [
+            (slider) => {
+                let timeout
+                let mouseOver = false
+                function clearNextTimeout() {
+                    clearTimeout(timeout)
+                }
+                function nextTimeout() {
+                    clearTimeout(timeout)
+                    if (mouseOver) return
+                    timeout = setTimeout(() => {
+                        slider.next()
+                    }, 1500)
+                }
+                slider.on("created", () => {
+                    slider.container.addEventListener("mouseover", () => {
+                        mouseOver = true
+                        clearNextTimeout()
+                    })
+                    slider.container.addEventListener("mouseout", () => {
+                        mouseOver = false
+                        nextTimeout()
+                    })
+                    nextTimeout()
+                })
+                slider.on("dragStarted", clearNextTimeout)
+                slider.on("animationEnded", nextTimeout)
+                slider.on("updated", nextTimeout)
+            },
+        ]
     )
-}
 
-export default Certificacion3
+    return (
+        <div ref={sliderRef} className="keen-slider">
+            {
+                certificacionImages.map(image => (
+                    <div className="keen-slider__slide number-slide1" key={image.id}>
+                        <Image src={image.image} alt={image.alt} />
+                    </div>
+
+                ))
+            }
+        </div>
+    );
+};
+
+export default Certificacion3;

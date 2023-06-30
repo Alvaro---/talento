@@ -1,6 +1,5 @@
 import imagen16 from '../images/images/16.png'
 import imagen17 from '../images/images/17.png'
-import imagen18 from '../images/images/18.png'
 import imagen23 from '../images/images/23.png'
 import imagen24 from '../images/images/24.png'
 import imagen26 from '../images/images/26.png'
@@ -34,7 +33,7 @@ const openCards = [
 		alt: "Open Cards",
 	},
     {
-		id: 6,
+		id: 7,
 		image: imagen27,
 		alt: "Open Cards",
 	},
