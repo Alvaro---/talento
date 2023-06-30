@@ -10,11 +10,25 @@ const Footer = () => {
           <div>
             <h3 className="text-md font-bold mb-2 text-blue">La Paz</h3>
             <ul>
-              <li className="text-blue">21 y 22 de Julio Hrs 17:00 a 20:30</li>
+              <li className="text-blue">
+                <p>
+                  21 y 22 de Julio Hrs 17:00 a 20:30
+                </p>
+                <p>
+                  Certificación: 9:00 a 17:00
+                </p>
+              </li>
             </ul>
             <h3 className="text-md font-bold mb-2 text-blue">Santa Cruz</h3>
             <ul>
-              <li className="text-blue">26 y 27 de Julio Hrs 17:00 a 20:30</li>
+              <li className="text-blue">
+                <p>
+                  26 y 27 de Julio Hrs 17:00 a 20:30
+                </p>
+                <p>
+                  Certificación: 9:00 a 17:00
+                </p>
+              </li>
             </ul>
           </div>
 
@@ -28,13 +42,13 @@ const Footer = () => {
 
           <div className="flex items-center justify-center m-0 p-0 text-blue">
             <a href="#" className="p-5" >
-              <FontAwesomeIcon icon={faFacebook} size="3x"/>
+              <FontAwesomeIcon icon={faFacebook} size="3x" />
             </a>
             <a href="#" className="p-5">
-              <FontAwesomeIcon icon={faInstagram} size="3x"/>
+              <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
             <a href="#" className="p-5">
-              <FontAwesomeIcon icon={faTwitter} size="3x"/>
+              <FontAwesomeIcon icon={faTwitter} size="3x" />
             </a>
           </div>
         </div>
