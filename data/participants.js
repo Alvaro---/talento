@@ -15,7 +15,7 @@ const participants = [
 		id: 2,
 		image: pointsOfYou,
 		alt: "Points of you",
-		link: "#talentCards",
+		link: "#pointsOfYou",
 	},
 	{
 		id: 3,

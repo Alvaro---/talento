@@ -34,13 +34,13 @@ export default function Home() {
 			<Certificacion2 />
 			<Certificacion3 />
 			<div className='bg-yellow my-10 p-2 flex flex-col justify-center items-center'>
-				<h2 className='text-blue text-center text-2xl m-10'>
+				<h2 className='text-blue text-center text-2xl m-10 font-bold'>
 					Conoce sobre nuestros expositores
 				</h2>
 			</div>
 			<Herramientas />
 			<div className='bg-yellow my-10 p-2 flex flex-col justify-center items-center'>
-				<h2 className='text-blue text-center text-2xl m-10'>Registrate</h2>
+				<h2 className='text-blue text-center text-2xl m-10 font-bold'>Registrate</h2>
 			</div>
 			<Registro />
 			<Footer />
