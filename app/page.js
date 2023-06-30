@@ -29,10 +29,17 @@ export default function Home() {
 					Corporativo
 				</h3>
 			</div>
-			<Certificacion />
-			<Author />
-			<Certificacion2 />
-			<Certificacion3 />
+			{/* <div
+				className=' bg-cover 
+						bg-center 
+						bg-no-repeat
+						bg-logo_background_large'
+				> */}
+			<div>
+				<Author />
+				<Certificacion2 />
+				<Certificacion3 />
+			</div>
 			<div className='bg-yellow my-10 p-2 flex flex-col justify-center items-center'>
 				<h2 className='text-blue text-center text-2xl m-10 font-bold'>
 					Conoce sobre nuestros expositores
