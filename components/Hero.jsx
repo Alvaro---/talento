@@ -22,7 +22,7 @@ const Hero = () => {
     >
       <Counter />
       <Image src={logoImage} className='w-auto h-1/3 md:h-1/2' alt='logo talento' />
-      <h2 className='text-center text-yellow text-sm md:text-lg font-bold tracking-wider p-4'>FERIA DE EXPERIENCIAS Y HERRAMIENTAS TRANSFORMADORAS</h2>
+      <h2 className='text-center text-yellow text-sm md:text-3xl font-bold tracking-wider p-4'>FERIA DE EXPERIENCIAS Y HERRAMIENTAS TRANSFORMADORAS</h2>
     </section >
   )
 }

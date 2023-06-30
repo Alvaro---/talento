@@ -6,8 +6,11 @@ import pointOfYou from "@/data/poitOfYou"
 
 const Herramientas = () => {
     return (
-        <div className="flex justify-center items-center flex-col">
-            <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
+        <div className="flex justify-center items-center flex-col  bg-cover 
+        bg-center 
+        bg-no-repeat
+        bg-logo_background">
+            <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6 bg-white'>
                 <div className='textBox w-full md:w-1/2' id="openCards">
                     <h3 className='text-blue mb-5'>Open Cards</h3>
                     <p>La metodología Open Cards® es una plataforma que permite crear espacios participativos y responder asuntos clave de cualquier negocio, cliente o equipo.
@@ -19,7 +22,7 @@ const Herramientas = () => {
                 </div>
             </section>
 
-            <section className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
+            <section className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6 bg-white'>
                 <div className='textBox w-full md:w-1/2' id="talentCards">
                     <h3 className='text-blue mb-5'>Talent Cards®</h3>
                     <p>
@@ -39,7 +42,7 @@ const Herramientas = () => {
                 </div>
             </section>
 
-            <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
+            <section className='flex flex-col md:flex-row p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6 bg-white'>
                 <div className='textBox w-full md:w-1/2' id="finxs">
                     <h3 className='text-blue mb-5'>Extended DISC® by Finxs</h3>
                     <p>
@@ -52,7 +55,7 @@ const Herramientas = () => {
                 </div>
             </section>
 
-            <section className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6'>
+            <section className='flex flex-col md:flex-row-reverse p-0 md:p-5 md:m-5 mt-2 justify-between md:border-solid md:border-2 w-full md:w-5/6 bg-white'>
                 <div className='textBox w-full md:w-1/2' id="finxs">
                     <h3 className='text-blue mb-5'>Points of You</h3>
                     <p>

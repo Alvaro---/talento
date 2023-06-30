@@ -7,13 +7,13 @@ const Certificacion = () => {
         <section className="w-screen flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat">
             <div className="flex md:flex-row flex-col relative">
                 {/* <Image src={logoImage} className="md:w-1/3 w-full" alt="logo talento" /> */}
-                <div className="md: pt-10 md:m-5 flex justify-center items-center flex-col">
+                {/* <div className="md: pt-10 md:m-5 flex justify-center items-center flex-col">
                     <h1 className="text-center text-blueMid text-3xl md:text-5xl font-bold tracking-wider p-1">HR BUSINESS PARTNER</h1>
                     <h3 className="text-xl font-semibold tracking-wide p-4 mt-10 text-center md:text-left">Facilitacón Experimental basada en Gamificación para el desarrollo del talento corporativo</h3>
                     <div className="flex flex-row">
                         <h2 className="text-xl font-semibold tracking-wide p-4 text-center">Juan Carlos Cadavid</h2>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="md: pt-10 md:m-5 flex justify-center items-center flex-col">
                     <h1 className="text-center text-blueMid text-3xl md:text-5xl font-bold tracking-wider p-1">HR BUSINESS PARTNER</h1>
                     <h3 className="text-xl font-semibold tracking-wide p-4 md:mr-44 mt-10 text-center md:text-left">Facilitacón Experimental basada en Gamificación para el desarrollo del talento corporativo</h3>
