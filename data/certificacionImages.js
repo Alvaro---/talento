@@ -1,11 +1,17 @@
-import imagen16 from '../images/images/16.png'
-import imagen17 from '../images/images/17.png'
-import imagen23 from '../images/images/23.png'
-import imagen24 from '../images/images/24.png'
-import imagen26 from '../images/images/26.png'
-import imagen27 from '../images/images/27.png'
+import imagen7 from '../images/images/7.png'
+import imagen16 from '../images/images/8.png'
+import imagen17 from '../images/images/9.png'
+import imagen23 from '../images/images/10.png'
+import imagen24 from '../images/images/11.png'
+import imagen26 from '../images/images/12.png'
+import imagen27 from '../images/images/13.png'
 
 const openCards = [
+	{
+		id: 8,
+		image: imagen7,
+		alt: "Open Cards",
+	},
 	{
 		id: 1,
 		image: imagen16,

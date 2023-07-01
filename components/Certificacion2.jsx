@@ -1,7 +1,7 @@
 
 const Certificacion2 = () => {
     return (
-        <div className="flex flex-col w-full md:w-5/6 mx-auto mb-20 mt-5 px-5 text-lg">
+        <div className="flex flex-col justify-center items-center w-full md:w-5/6 mx-auto mb-20 mt-5 px-5 text-lg">
             <h3 className="text-blue text-bold text-2xl text-center">Eleva tu nivel de intervención y facilitación de procesos.</h3>
             <h2 className="mb-5 text-center">¿Qué es un/a HR Business Partner (HR-BP)?</h2>
             <p className="mb-2">
@@ -11,8 +11,8 @@ const Certificacion2 = () => {
                 compañía junto con la del área de Gestión Humana.
             </p>
             <div className="m-3">
-                <h2 className="text-bold text-xl">BENEFICIOS DEL PROGRAMA</h2>
-                <ul className="list-disc mb-4">
+                <h2 className="text-bold text-xl text-center my-5">BENEFICIOS DEL PROGRAMA</h2>
+                <ul className="list-disc list-inside mb-4">
                     <li><b>Formar tu Kit de herramientas </b> para trabajar como HR Business Partner</li>
                     <li><b>Modelos para facilitar conversaciones estratégicas en la organización</b> con
                         equipos o áreas diversas, cumpliendo la premisa de “Aliado Estratégico de

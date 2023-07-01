@@ -2,6 +2,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+import dio from '../images/Auspicio y organizacion/18.png'
+import latina from '../images/Auspicio y organizacion/19.png'
+import asbo from '../images/Auspicio y organizacion/asbo.jpg'
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-200 py-4 bg-yellow text-blue">
@@ -41,15 +46,23 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center justify-center m-0 p-0 text-blue">
-            <a href="#" className="p-5" >
+            {/* <a href="#" className="p-5" >
               <FontAwesomeIcon icon={faFacebook} size="3x" />
             </a>
             <a href="#" className="p-5">
               <FontAwesomeIcon icon={faInstagram} size="3x" />
-            </a>
-            <a href="#" className="p-5">
-              <FontAwesomeIcon icon={faTwitter} size="3x" />
-            </a>
+            </a> */}
+            <div className="flex flex-col">
+              <h3 className="text-lg font-bold mb-2 text-blue">Organizadores</h3>
+              <div className="flex flex-wrap">
+                <Image src={latina} className="w-3/4" />
+                <Image src={dio} className="w-3/4" />
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-blue">Auspiciadores</h3>
+              <div className="flex flex-wrap">
+                <Image src={asbo} className="w-3/4" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
