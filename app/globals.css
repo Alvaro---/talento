@@ -38,7 +38,7 @@
 }
 
 .timeBox {
-	@apply flex flex-col p-5 justify-center text-center border-r border-yellow border-solid;
+	@apply flex flex-col p-3 px-5 justify-center text-center border-r border-yellow border-solid;
 }
 
 .time {
