@@ -10,7 +10,7 @@ const Description = () => {
                     y fundamentada en las personas y el desarrollo de su talento.
                 </p>
                 <p className="mt-5">
-                    Encontrarás varios stans con herramientas de última generación para
+                    Encontrarás varios stands con herramientas de última generación para
                     el desarrollo de tus procesos, facilitación. Cada expositor realizará una
                     intervención con sus herramientas
                 </p>
