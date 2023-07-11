@@ -1,7 +1,7 @@
 import talentCardsLogo from "../images/participantsLogos/talent-cards.jpg";
 import legoLogo from "../images/participantsLogos/lego+serious+play.jpg";
 import finxsLogo from "../images/participantsLogos/finxs.png";
-import pointsOfYou from "../images/participantsLogos/points-of-you-fondo-blanco.png";
+import pointsOfYou from "../images/participantsLogos/points-of-you-fondo-blanco.jpeg";
 import openCards from "../images/participantsLogos/openCards.png";
 import openMinds from "../images/participantsLogos/OpenMinds.png";
 
