@@ -40,8 +40,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-2 text-blue">Teléfonos de contacto</h3>
             <ul>
-              <li className="text-blue">Eliana Otondo – 78562700</li>
-              <li className="text-blue">Ana Zamorano - 69850858</li>
+              <li className="text-blue">78562700</li>
+              <li className="text-blue">69850858</li>
             </ul>
           </div>
 
